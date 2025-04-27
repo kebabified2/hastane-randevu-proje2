@@ -7,7 +7,7 @@ Basit bir masaüstü uygulamasıyla hastalar için doktor randevularını oluşt
 
 | Dosya | Rol |
 |:---|:---|
-| `hospital_system.py` | İş mantığı; `Patient`, `Doctor`, `Appointment`, `ReservationSystem` sınıfları. Veritabanı yok; veriler bellekte tutulur. |
+| `hospital_system.py` | İş mantığı; `Patient`, `Doctor`, `Appointment`, `ReservationSystem` sınıfları. |
 | `arayuz.py` | Tkinter arayüzü. Uygulamayı başlatır, örnek doktor ve saat verilerini sisteme ekler. |
 
 ## Gereksinimler
