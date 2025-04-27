@@ -15,26 +15,28 @@ Basit bir masaüstü uygulamasıyla hastalar için doktor randevularını oluşt
 - Python 3.9+
 - Tkinter (çoğu Python dağıtımında hazır gelir)
 
-## Hızlı Başlangıç
-
+## Kurulum
 ```bash
-git
-python hospital_ui.py
+1. Repoyu klonlayın
+cd Desktop
+git clone https://github.com/kebabified2/hastane-randevu-proje2
 
+2. Çalıştır
+python arac_kiralama_gui.py
+```
+## Uygulama
 Sol üstte hasta bilgilerini, altta doktor seçimi ve müsait saat listesini göreceksiniz.
-Randevu Almak
-
-    Hasta adını ve 11 haneli TCʼsini girin. (Alan yalnızca rakam kabul eder.)
+- Randevu Almak
+   ``` Hasta adını ve 11 haneli TCʼsini girin. (Alan yalnızca rakam kabul eder.)
     Doktoru seçin. Liste kutusunda o doktora ait boş saatler görünür.
     İstediğiniz saati tıklayın (tarih alanı otomatik dolar) ve Randevu Al düğmesine basın.
-
-Randevu İptal Etmek
-
-    Aktif randevular listesinde bir satıra tıklayın ve Randevu İptal düğmesine basın.
-
+   ```
+- Randevu İptal Etmek
+```
+Aktif randevular listesinde bir satıra tıklayın ve Randevu İptal düğmesine basın.
 ```
 
-# Doğrulamalar
+# Hatırlatma
 
 - TC: 11 haneli, sadece rakam.
 
@@ -47,3 +49,7 @@ Randevu İptal Etmek
 - Çok kullanıcılı senaryo veya ağ erişimi yok.  
 
 - Saat dilimi desteği yok; tarih‐saatler yerel sistem saatine göre alınır.
+
+---
+## Lisans
+MIT
