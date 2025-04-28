@@ -112,15 +112,12 @@ class ReservationSystem:
                 return app
         raise ValueError("Randevu bulunamadı.")
 
-    # ---- Yardımcı -----------------------------------------------------------
     def list_appointments(self) -> None:
         for a in sorted(self.appointments, key=lambda x: x.date_time):
             print(a)
 
-
-# ----------------------------------------------------------------------------
 # Basit kullanım örneği (python hospital_system.py) ---------------------------
-# ----------------------------------------------------------------------------
+
 if __name__ == "__main__":
     rs = ReservationSystem()
 
